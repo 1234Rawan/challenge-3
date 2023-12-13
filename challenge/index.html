@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <img class="back" src="images/bg-main-desktop.png" alt="">
+        <img class="top" src="images/bg-main-mobile.png" alt="">
+        <div class="content">
+            <div class="images">
+                <img class="img-1" src="images/bg-card-front.png" alt="">
+                <p class="p1">0000 0000 0000 0000</p>
+                <div class="CARD">
+                    <p class="p2">JANE APPLESEED</p>
+                    <p class="p3">00/00</p>
+                </div>
+                <img class="img-2" src="images/bg-card-back.png" alt="">
+                <p class="p4">000</p>
+            </div>
+            <div class="text">
+                <label for="user-name">Cardholder Name</label>
+                <input class="input-1" type="text" id="user-name" name="user-name" placeholder="Name">
+                <label for="user-number">Card Number</label>
+                <input class="input-2" type="text" id="user-number" name="user-number" placeholder="Number">
+                <div class="DATE">
+                    <div class="one">
+                        <label for="expiry-month">Date (MM/YY)</label>
+                        <div class="O">
+                            <input class="input-3" type="text" id="expiry-month" name="expiry-month" placeholder="MM">
+                            <input class="input-4" type="text" id="expiry-year" name="expiry-year" placeholder="YY">
+                        </div>
+                    </div>
+                    <div class="two">
+                        <label class="CVC" for="cvc">CVC</label>
+                        <input class="input-5" type="text" id="cvc" name="cvc" placeholder="e.g.123">
+                    </div>
+                </div>
+                <button class="btn" id="confirmBtn"> Confirm </button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

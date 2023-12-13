@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Jomhuria&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,400;1,400;1,500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    overflow-y: hidden;
+}
+
+div.container {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: white; */
+}
+.THANK-YOU{
+    display: flex;
+    flex-direction: column;
+    gap: 118px;
+}
+@media (min-width:412px){
+    .top{
+        display: none;
+    }
+}
+.back {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 380px;
+}
+
+.images .img-1 {
+    position: absolute;
+    height: 30%;
+    top: 150px;
+    left: 112px;
+    z-index: 1;
+}
+
+.images .img-2 {
+    height: 30%;
+    position: absolute;
+    left: 203px;
+    bottom: 80px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 367px;
+}
+.we{
+    position: absolute;
+    top: 371px;
+    color: rgb(46, 46, 40);
+    left: 779px;
+}
+
+.btn {
+    background-color: rgb(56, 3, 81);
+    width: 315px;
+    margin-right: 94px;
+    color: #ffffff;
+    font-size: 33px;
+    justify-content: center;
+    border-radius: 8px;
+    height: 40px;
+    position: absolute;
+    top: 418px;
+}
+.images .p1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 267px;
+    left: 163px;
+    font-size: 30px;
+}
+
+.images .p2 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 320px;
+    left: 163px;
+    font-size: 14px;
+}
+
+.images .p4 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 499px;
+    left: 492px;
+    font-size: 25px;
+}
+
+.images .p3 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    top: 317px;
+    left: 401px;
+    font-size: 17px;
+}
+.texT{
+position: absolute;
+left: 821px;
+    font-size: 38px;
+}
+.image{
+position: absolute;
+left: 865px;
+}
+@media (max-width:412px) {
+    .content {
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  
+    .btn {
+        position: absolute;
+        top: 703px;
+        align-items: center;
+        background-color: rgb(56, 3, 81);
+        width: 433px;
+        margin-right: 94px;
+        color: #ffffff;
+        font-size: 33px;
+        justify-content: center;
+        border-radius: 8px;
+        height: 64px;
+    }
+
+    .images .img-1 {
+        position: absolute;
+        height: 30%;
+        top: 161px;
+        left: 68px;
+        z-index: 1;
+    }
+    .images .p1 {
+        position: absolute;
+    z-index: 1;
+    color: white;
+    top: 267px;
+    left: 87px;
+    font-size: 32px;
+    }
+    
+    .images .p2 {
+     position: absolute;
+    z-index: 1;
+    color: white;
+    top: 320px;
+    left: 91px;
+    font-size: 18px;
+    }
+    
+    .images .p4 {
+        position: absolute;
+        z-index: 1;
+        color: white;
+        top: 131px;
+        left: 467px;
+        font-size: 25px;
+    }
+    
+    .images .p3 {
+          position: absolute;
+    z-index: 1;
+    color: white;
+    top: 317px;
+    left: 316px;
+    font-size: 22px;
+    }
+
+    .images .img-2 {
+        height: 30%;
+        position: absolute;
+        left: 166px;
+        bottom: 447px;
+    }
+    
+    .top {
+        height: 53%;
+        position: absolute;
+        z-index: -1;
+        transform: rotate(360deg);
+    
+    }
+    .back{
+        display: none;
+    }
+    .we{
+        position: absolute;
+        top: 371px;
+        color: rgb(46, 46, 40);
+        left: 779px;
+    }
+    .THANK-YOU{
+        display: flex;
+        flex-direction: column;
+        gap: 118px;
+        margin-left: 77px;
+    }
+    .texT{
+        position: absolute;
+        font-size: 33px;
+    left: 201px;
+    top: 608px;
+        }
+        .image{
+            position: absolute;
+            left: 242px;
+            top: 506px;
+        }
+        .we{
+            position: absolute;
+            top: 667px;
+            color: rgb(77, 77, 68);
+            left: 146px;
+        }
+}
+
